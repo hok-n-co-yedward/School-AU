@@ -81,6 +81,8 @@ define gui.notify_text_size = 24
 ## The size of the game's title.
 define gui.title_text_size = 75
 
+## Vertical line spacing.
+define gui.dialogue_text_line_spacing = 4
 
 ## Main and Game Menus #########################################################
 
@@ -104,8 +106,8 @@ define gui.textbox_yalign = 1.0
 
 ## The placement of the speaking character's name, relative to the textbox.
 ## These can be a whole number of pixels from the left or top, or 0.5 to center.
-define gui.name_xpos = 460
-define gui.name_ypos = 12
+define gui.name_xpos = 445
+define gui.name_ypos = 18
 
 ## The horizontal alignment of the character's name. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
@@ -128,16 +130,15 @@ define gui.namebox_tile = False
 ## The placement of dialogue relative to the textbox. These can be a whole
 ## number of pixels relative to the left or top side of the textbox, or 0.5 to
 ## center.
-define gui.dialogue_xpos = 461
-define gui.dialogue_ypos = 75
+define gui.dialogue_xpos = 451
+define gui.dialogue_ypos = 68
 
 ## The maximum width of dialogue text, in pixels.
-define gui.dialogue_width = 1116
+define gui.dialogue_width = 1055
 
 ## The horizontal alignment of the dialogue text. This can be 0.0 for left-
 ## aligned, 0.5 for centered, and 1.0 for right-aligned.
 define gui.dialogue_text_xalign = 0.0
-
 
 ## Buttons #####################################################################
 ##
@@ -432,10 +433,11 @@ init python:
         gui.interface_text_size = 45
         gui.button_text_size = 45
         gui.label_text_size = 51
+        line_spacing = 50
 
         ## Adjust the location of the textbox.
         gui.textbox_height = 360
-        gui.name_xpos = 120
+        gui.name_xpos = 130
         gui.dialogue_xpos = 135
         gui.dialogue_width = 1650
 

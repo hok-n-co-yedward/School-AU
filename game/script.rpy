@@ -39,7 +39,14 @@ label start:
 
     aoi "..."
 
-    aoi "Once you add a story, pictures, and music, you can release it to the world!"
+    aoi "mid text test. mid text test. mid text test. mid text test. mid text test. mid text test. mid text test. mid text test.
+    mid text test. mid text test. mid text test. mid text test. "
+
+    aoi "Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test.
+    Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test.
+    Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test.
+    Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test. Long text test.
+    Long text test. Long text test. Long text test. Long text test. "
 
     # This ends the game.
 
